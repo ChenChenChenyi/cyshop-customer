@@ -20,4 +20,5 @@ public class HelloController {
     public void sayHello(){
         System.out.println("Hello chenyi and yinxiangzhao!");
     }
+
 }

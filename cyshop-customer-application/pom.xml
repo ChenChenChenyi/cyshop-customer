@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.cyshop</groupId>
-            <artifactId>cyshop-customer-domain</artifactId>
+            <artifactId>cyshop-customer-infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
