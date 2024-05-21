@@ -21,7 +21,7 @@
 		<module>cyshop-customer-infrastructure</module>
 	</modules>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
 		<spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
 	</properties>
@@ -46,6 +46,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
 
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.boot</groupId>-->
@@ -64,6 +68,26 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+<!--		swagger增强-->
+		<dependency>
+			<groupId>com.github.xiaoymin</groupId>
+			<artifactId>knife4j-openapi2-spring-boot-starter</artifactId>
+			<version>4.4.0</version>
+		</dependency>
+
+<!--		对象拷贝工具-->
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct</artifactId>
+			<version>1.5.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct-processor</artifactId>
+			<version>1.5.0.Final</version>
+		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
